@@ -1,6 +1,7 @@
 ---
 name: zotero-paper-review
 description: 按 15 个问题精读 Zotero 中的指定论文，核对原文、相关工作和复现证据，并把完整阅读报告写到对应条目的子笔记中。适用于要求 Zotero 论文精读并归档报告的请求。
+license: MIT
 ---
 
 # Zotero 论文精读
