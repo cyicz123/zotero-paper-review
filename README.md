@@ -15,7 +15,7 @@ gh skill install cyicz123/zotero-paper-review zotero-paper-review --agent codex 
 **npx skills**（需要 Node.js 和 `npx`）：
 
 ```sh
-npx skills add cyicz123/zotero-paper-review --skill zotero-paper-review --agent codex --global
+npx skills add cyicz123/zotero-paper-review --skill zotero-paper-review --agent codex --global --yes
 ```
 
 运行技能需要已配置、能访问 Zotero 库的 `zotero-cli`。本地模式需要启动 Zotero 并启用本地 API。使用前运行 `zotero-cli config` 检查连接，并按 CLI 文档配置笔记写入权限。[zotero-cli 文档](https://github.com/cookjohn/zotero-cli)
