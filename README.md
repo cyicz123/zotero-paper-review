@@ -4,11 +4,21 @@
 
 ## 安装
 
-需要支持 `gh skill` 的 GitHub CLI，以及已配置、能访问 Zotero 库的 `zotero-cli`。本地模式需要启动 Zotero 并启用本地 API。安装技能后，在使用前运行 `zotero-cli config` 检查连接，并按 CLI 文档配置笔记写入权限。[zotero-cli 文档](https://github.com/cookjohn/zotero-cli)
+任选一种方式安装到 Codex 的用户级技能目录。
+
+**GitHub CLI**（需要支持 `gh skill`）：
 
 ```sh
 gh skill install cyicz123/zotero-paper-review zotero-paper-review --agent codex --scope user
 ```
+
+**npx skills**（需要 Node.js 和 `npx`）：
+
+```sh
+npx skills add cyicz123/zotero-paper-review --skill zotero-paper-review --agent codex --global
+```
+
+运行技能需要已配置、能访问 Zotero 库的 `zotero-cli`。本地模式需要启动 Zotero 并启用本地 API。使用前运行 `zotero-cli config` 检查连接，并按 CLI 文档配置笔记写入权限。[zotero-cli 文档](https://github.com/cookjohn/zotero-cli)
 
 ## 使用
 
